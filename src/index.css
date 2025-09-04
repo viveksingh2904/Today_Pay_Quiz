@@ -1,0 +1,70 @@
+/* Body styles */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  /* Background image */
+  background: url("./components/public/WhatsApp Image 2025-09-04 at 21.05.33_b4f1b797.jpg") center/cover no-repeat;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container box */
+.container {
+  width: 100%;
+  max-width: 700px;
+  background: #d6a8a8;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Custom button */
+.btn-custom {
+  background: #3b82f6;
+  color: white;
+  border-radius: 8px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.btn-custom:hover {
+  background: #2563eb;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.text-primary {
+  background: linear-gradient(90deg, #6228e8, #cde33b, #2c70df);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+
+/* Welcome title */
+.welcome-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  animation: fadeInDown 1.5s ease-in-out;
+}
+
+/* Fade in down animation */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
