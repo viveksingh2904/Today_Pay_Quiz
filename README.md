@@ -6,6 +6,12 @@ A clean, user‑friendly **Quiz Application** built with **React** as part of an
 
 ---
 
+## 🌐 Live Demo
+
+🚀 Visit the website → [Demo Link Here](https://today-pay-quiz.vercel.app/)
+
+---
+
 ## 🚀 Objective
 
 The goal of this project is to create an interactive Quiz App that:
@@ -120,11 +126,6 @@ Today_Pay_Quiz/
 
 ---
 
-## 🌐 Live Demo
-
-🚀 Deployed on **Netlify/Vercel** → [Demo Link Here](#) *(Replace with actual URL)*
-
----
 
 ## 🤝 Contribution
 
